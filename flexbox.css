@@ -1,20 +1,36 @@
   .container-1 div, .container-2 div{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
   }
 
   .container-1{
+    display: flex;
+    /* flex-direction: column-reverse; */
+    justify-content: space-around;
+    /* align-items: flex-start; */
   }
   
   .box-1{
+    /* flex: 2; */
+    /* order: 2; */
   }
   
   .box-2{
+    /* flex: 1; */
+    /* order: 1; */
   }
   
   .box-3{
+    /* flex: 1; */
   }
 
   .container-2{
+    display: flex;
+    /* flex-wrap: joga as caixas q não couberem na tela para baixo */
+    flex-wrap: wrap;
   }
   
   .container-2-box{
+    flex-basis: 15%;
   }
